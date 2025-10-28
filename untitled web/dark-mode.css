@@ -1,0 +1,126 @@
+/* Dark Mode Theme for Sengahloune Resort & Villa */
+
+body {
+    background: #000;
+    color: #f5f5f7;
+}
+
+header {
+    background: rgba(29, 29, 31, 0.72);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.logo {
+    color: #f5f5f7;
+}
+
+.header-contact {
+    color: #a1a1a6;
+}
+
+nav a {
+    color: #f5f5f7;
+}
+
+nav a:hover {
+    opacity: 0.6;
+}
+
+.book-btn {
+    background: #0a84ff;
+    color: #fff;
+}
+
+.book-btn:hover {
+    background: #409cff;
+}
+
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('images/new background.jpg');
+}
+
+.section-title {
+    color: #f5f5f7;
+}
+
+.section-subtitle {
+    color: #a1a1a6;
+}
+
+.info-text {
+    color: #f5f5f7;
+}
+
+.room-item {
+    color: #f5f5f7;
+}
+
+.room-image {
+    background: #1d1d1f;
+}
+
+.room-content p {
+    color: #a1a1a6;
+}
+
+.feature-text h3 {
+    color: #f5f5f7;
+}
+
+.feature-text p {
+    color: #f5f5f7;
+}
+
+.feature-image {
+    background: #1d1d1f;
+}
+
+.gallery {
+    background: #1d1d1f;
+}
+
+.gallery-item {
+    background: #2c2c2e;
+}
+
+.highlight {
+    background: #0a84ff;
+    color: #fff;
+}
+
+footer {
+    background: #1d1d1f;
+    color: #a1a1a6;
+}
+
+.footer-section h4 {
+    color: #f5f5f7;
+}
+
+.footer-section p,
+.footer-section a {
+    color: #a1a1a6;
+}
+
+.footer-section a:hover {
+    color: #f5f5f7;
+}
+
+.divider {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+/* Additional dark mode enhancements */
+strong {
+    color: #f5f5f7;
+}
+
+/* Ensure proper contrast for all text elements */
+h1, h2, h3, h4, h5, h6 {
+    color: #f5f5f7;
+}
+
+/* Smooth transitions for dark mode */
+* {
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
